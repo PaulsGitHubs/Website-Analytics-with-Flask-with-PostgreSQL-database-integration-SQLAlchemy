@@ -1,4 +1,4 @@
-# Website Analytics with Flask
+# Website Analytics with Flask with PostgreSQL database integration & SQLAlchemy
 
 This repository contains a simple website analytics system implemented in Flask and JavaScript. It allows you to track user visits to your website and gather basic information about your users, including:
 
@@ -14,13 +14,15 @@ This repository contains a simple website analytics system implemented in Flask 
 - Flask-CORS
 - user-agents
 - IP2Location
+- flask_sqlalchemy 
+- psycopg2-binary
 
 ## Setup
 
 1. Install the necessary Python packages:
 
     ```
-    pip install flask flask-cors user-agents IP2Location
+    pip install flask flask-cors user-agents IP2Location flask_sqlalchemy psycopg2-binary
     ```
 
 2. Download the IP2Location LITE database in BIN format from the [IP2Location website](https://lite.ip2location.com/). Unzip the downloaded file and place the BIN file in the same directory as your Flask app.
