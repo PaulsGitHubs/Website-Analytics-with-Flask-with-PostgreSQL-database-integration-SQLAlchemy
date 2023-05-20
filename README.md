@@ -46,3 +46,6 @@ You can also modify the JavaScript code to suit your needs. For example, you can
 This analytics system respects the "Do Not Track" setting in the user's browser. If this setting is enabled, no analytics data will be sent.
 
 Please ensure that your use of this system complies with all relevant privacy laws and regulations. This may include informing your users about the data you're collecting and giving them the option to opt out.
+
+## References
+This site or product includes IP2Location LITE data available from https://lite.ip2location.com.
