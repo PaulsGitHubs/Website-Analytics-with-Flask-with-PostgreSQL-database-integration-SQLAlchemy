@@ -16,7 +16,7 @@ window.onload = function() {
         page: window.location.href,
         user_agent: navigator.userAgent
       })
-    });
+    }).catch(error => console.error('Error:', error));
   }
 };
 
