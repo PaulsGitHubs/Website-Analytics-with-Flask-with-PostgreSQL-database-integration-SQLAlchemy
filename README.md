@@ -2,7 +2,7 @@
 
 This repository contains a simple website analytics system implemented in Flask and JavaScript. It allows you to track user visits to your website and gather basic information about your users, including:
 
-- The page they're visiting
+- The page they're visiting (still working on this, will be done through cookies...)
 - Their browser and operating system
 - Their device type (mobile or PC)
 - Their approximate location (based on IP address)
